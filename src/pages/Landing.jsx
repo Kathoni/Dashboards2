@@ -1,8 +1,11 @@
 import React from 'react'
+import Sidebar from '../compnents/Sidebar'
 
 function Landing() {
   return (
-    <div>Landing</div>
+    <div>
+      <Sidebar/>
+    </div>
   )
 }
 
