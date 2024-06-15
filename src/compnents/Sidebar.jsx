@@ -17,10 +17,14 @@ function Sidebar() {
     <>
 
       <div className="offcanvas-header">
-        <h5 className="offcanvas-title" id="sidebarMenuLabel">Admin</h5>
         <button type="button" className="btn-close text-reset" onClick={toggleSidebar}></button>
       </div>
       <div className="offcanvas-body">
+      <div className='m-2'>
+        <i className="bi bi-box2-heart me-2 fs-4"></i>
+        <span className='brand-name fs-4'>Admin</span>
+      </div>
+      <hr className='text-dark' />
         <ul className="nav flex-column">
           <li className="nav-item">
             <Link className="nav-link text-dark fs-5"  >
