@@ -9,7 +9,7 @@
 .container-fluid{
     background-color: #E1F5FE;
 }
-.list-group-item:hover{
+.nav-link:hover{
     background-color: #FFF9C4;
 }
 

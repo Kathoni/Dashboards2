@@ -4,6 +4,7 @@ import Navbar from '../compnents/Navbar'
 function DashboardOne({Isopen}) {
   
   return (
+    
     <div className=' dashboard px-3'>
       <Navbar Isopen={Isopen} />
       <div>
@@ -100,6 +101,7 @@ function DashboardOne({Isopen}) {
     </tr>
   </tbody>
 </table>
+  
 
 
     </div>
