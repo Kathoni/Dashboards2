@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../compnents/Navbar'
 
-function DashboardOne() {
+function DashboardOne({Isopen}) {
   
   return (
     <div className=' dashboard px-3'>
-      <Navbar />
+      <Navbar Isopen={Isopen} />
       <div>
         <div className='row g-3 my-2'>
           <div className='col-md-3'>
