@@ -1,0 +1,17 @@
+.list-group ul{
+    list-style-type: none;
+    list-style: none;    
+
+}
+.dashboard{
+    background-color: #E1F5FE;
+}
+.container-fluid{
+    background-color: #E1F5FE;
+}
+.list-group-item:hover{
+    background-color: #FFF9C4;
+}
+
+
+
