@@ -17,6 +17,7 @@ function Sidebar() {
     <>
 
       <div className="offcanvas-header">
+        <button type="button" className="btn-close text-reset" onClick={toggleSidebar}></button>
       </div>
       <div className="offcanvas-body">
       <div className='m-2'>
