@@ -5,13 +5,15 @@ import '../styles/style.css';
 
 function Landing() {
   return (
-    <div className="container-fluid min-vh-100">
-      <div className="row">
-        <div className="col-12 col-md-2 bg-white p-0 vh-100">
+    <div>
+      <div className='container-fluid min-vh-100'>
+        <div className='row'>
+          <div className='col-12'>
           <Sidebar />
-        </div>
-        <div className="col">
+          </div>
+          <div className='col-auto'>
           <DashboardOne />
+          </div>
         </div>
       </div>
     </div>
