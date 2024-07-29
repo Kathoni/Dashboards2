@@ -1,3 +1,4 @@
+
 const appLinks ={
     Landing: "/",
     DashboardOne: "/dashboard",
@@ -5,5 +6,9 @@ const appLinks ={
     Register: "/register",
 
 }
+const apiLinks = {
+    Login: "/token/",
+    Register: "/register/",
+  };
 
-export { appLinks};
+export { appLinks, apiLinks};

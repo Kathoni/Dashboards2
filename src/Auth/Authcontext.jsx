@@ -1,8 +1,8 @@
 import { createContext,  useState } from "react";
-import { accountsAPI } from "./api/axios";
-import { apiLinks } from "./constants/Links";
+import { accountsAPI } from "../api/axios";
+import { apiLinks } from "../constants/Links";
 
-export const AuthContext = createContext();
+export const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
   const userData = JSON.parse(localStorage.getItem("user"));
